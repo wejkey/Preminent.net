@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location.pathname === "";
 
   const anchor = (hash) => (isHome ? hash : `index.html${hash}`);
-  const discordLink = "discord.html";
+  const discordLink = "https://discord.preminent.net";
 
   const navbar = `
     <div class="logo">

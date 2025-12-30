@@ -13,7 +13,6 @@ function simulateLoading() {
   if (!loader || !loaderBar) return;
   const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   loaderBar.style.width = "100%";
-  loaderText.textContent = "Dropping you in.";
 
   if (prefersReduced) {
     endLoader();

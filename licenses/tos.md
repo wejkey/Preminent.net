@@ -204,7 +204,7 @@ a) Access may be terminated at any time, with or without notice.
 ### 13.2 Appeals
 a) Appeals may be submitted via:
 - Email: **(email_address)**  
-- Discord ticket system  
+- Discord
 
 ---
 
