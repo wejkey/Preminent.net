@@ -895,7 +895,6 @@ a {
   animation: float 12s ease-in-out infinite;
 }
 
-/* Legal / Markdown content styling */
 .legal-copy {
   max-width: 860px;
   margin: 24px auto;
