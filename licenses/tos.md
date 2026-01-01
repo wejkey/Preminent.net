@@ -1,4 +1,4 @@
-Poznámka: všetky licencie a podmienky používanie sú a budú písané/aktualizované v Anglickom jazyku.
+Poznámka: všetky licencie a podmienky používania sú a budú písané/aktualizované v Anglickom jazyku.
 
 By accessing, playing on, purchasing from, or otherwise using **Preminent Network**, you agree to be bound by these Terms of Service ("ToS").  
 If you do not agree with any part of these terms, you must immediately stop using all Preminent Network services.
