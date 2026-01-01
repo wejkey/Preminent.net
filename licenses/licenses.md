@@ -1,4 +1,4 @@
-Poznámka: všetky licencie a podmienky používanie sú a budú písané/aktualizované v Anglickom jazyku.
+Poznámka: všetky licencie a podmienky používania sú a budú písané/aktualizované v Anglickom jazyku.
 
 # Preminent Network Branding Content License (2026+1.0)
 
