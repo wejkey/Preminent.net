@@ -24,6 +24,9 @@ remains the exclusive intellectual property of Preminent Network.
 
 b) Players are granted **no ownership rights** to any server content, regardless of time spent, money spent, or contribution.
 
+c) This includes all underlying logic, systems, mechanics, and behavior of custom plugins,
+even if such mechanics are observable during gameplay.
+
 ### 1.3 Third-Party Content
 a) Some maps, schematics, or assets may originate from third-party creators.  
 b) Ownership of such content remains with the original creators.  
@@ -101,6 +104,7 @@ a) Data is collected for moderation, security, analytics, and server stability.
 ### 5.3 Data Protection
 a) Data is not sold to third parties.  
 b) Data may be disclosed if legally required.
+c) Players may request deletion of their personal data.
 
 ---
 
@@ -111,7 +115,7 @@ a) Servers are hosted using third-party hosting providers.
 b) Preminent Network does not own the physical hardware.
 
 ### 6.2 Location
-a) Servers are located in **(server_location)**.
+a) Servers are located in **Czech Republic**.
 
 ### 6.3 No Uptime Guarantee
 a) No uptime or performance guarantees are provided.  
@@ -141,7 +145,7 @@ a) Staff may act even if a situation is not explicitly covered by the rules.
 b) Decisions are based on intent, impact, fairness, and server integrity.
 
 ### 8.2 Final Decisions
-a) Staff decisions are final unless overturned by senior management.
+a) Staff decisions are final unless overturned by senior management or ownership.
 
 ---
 

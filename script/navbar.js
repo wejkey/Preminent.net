@@ -7,7 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location.pathname === "/" ||
     window.location.pathname === "";
 
-  const anchor = (hash) => (isHome ? hash : `index.html${hash}`);
+  const anchor = (hash) => {
+    if (hash.startsWith("index.html") || hash.includes(".html")) {
+      return hash;
+    }
+    return isHome ? hash : `index.html${hash}`;
+  };
   const discordLink = "https://discord.preminent.net";
 
   const navbar = `
