@@ -22,7 +22,7 @@ function simulateLoading() {
 
 function startCountdown() {
   const countdownEl = document.getElementById("countdown");
-  const launchDate = new Date("2026-08-01T00:00:00Z");
+  const launchDate = new Date("2026-04-03T23:00:00Z");
 
   function update() {
     const now = new Date();
