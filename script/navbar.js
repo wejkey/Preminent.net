@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
     <nav class="nav">
       <a href="${anchor("index.html")}">Domov</a>
       <a href="${anchor("#blog")}">Blogy</a>
-      <a href="${anchor("#community")}">Komunita</a>
       <a href="team.html">Tím</a>
       <a href="${discordLink}">Discord</a>
     </nav>

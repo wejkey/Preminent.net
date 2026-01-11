@@ -509,32 +509,6 @@ main {
   }
 }
 
-.community-new {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
-}
-
-.community-pane {
-  display: grid;
-  gap: 8px;
-}
-
-.community-pane h3 {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  font-size: 18px;
-  font-weight: 800;
-  padding-left: 0;
-}
-
-.community-pane h3 i {
-  color: var(--primary);
-  font-size: 18px;
-  margin-left: 0;
-}
-
 .team-section {
   margin-top: 32px;
 }

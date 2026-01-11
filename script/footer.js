@@ -18,14 +18,13 @@ document.addEventListener("DOMContentLoaded", () => {
           <strong>Preminent Network</strong>
         </div>
       </div>
-      <p>© 2026 Preminent Network Tím. Všetky práva vyhradené.</p>
+      <p>© 2026 Preminent Network Tím. Všetky práva vyhradené. (2026+1.0.1)</p>
     </div>
     <div class="footer-columns">
       <div class="footer-col">
         <h4>Preminent</h4>
         <a href="${anchor("#home")}">Domov</a>
         <a href="${anchor("#blog")}">Blog</a>
-        <a href="${anchor("#community")}">Komunita</a>
         <a href="team.html">Tím</a>
       </div>
       <div class="footer-col">
@@ -43,7 +42,6 @@ document.addEventListener("DOMContentLoaded", () => {
           <a aria-label="Discord" href="${discordLink}"><i class="fa-brands fa-discord"></i></a>
           <a aria-label="Instagram" href="https://www.instagram.com/preminentnet"><i class="fa-brands fa-instagram"></i></a>
           <a aria-label="Email" href="mailto:contact@preminent.net"><i class="fa-solid fa-envelope"></i></a>
-          <a aria-label="GitHub" href="https://github.com/preminentnet"><i class="fa-brands fa-github"></i></a>
         </div>
       </div>
     </div>

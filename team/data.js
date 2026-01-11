@@ -3,8 +3,8 @@ window.TEAM_DATA = {
     {
       name: "Wejkey",
       joined: "Dec 28, 2025",
-      role: "Zakladateľ",
-      bio: "Verím tomu že sa nám podarí vytvoriť niečo úžasné pre komunitu.",
+      role: "Zakladatel",
+      bio: "Snaď z toho niečo bude",
       avatar: "assets/team/wejkey.jpeg",
       github: "https://github.com/wejkey",
       discord: "wejkey",
