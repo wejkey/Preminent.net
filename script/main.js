@@ -28,7 +28,7 @@ function startCountdown() {
     const now = new Date();
     const diff = launchDate - now;
     if (diff <= 0) {
-      countdownEl.textContent = "Spustenie!";
+      countdownEl.textContent = "Začíname!";
       return;
     }
     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
