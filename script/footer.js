@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <strong>Preminent Network</strong>
         </div>
       </div>
-      <p>© 2026 Preminent Network Tím. Všetky práva vyhradené. (2026+1.0.1)</p>
+      <p>© 2026 Preminent Network Tím. Všetky práva vyhradené.</p>
     </div>
     <div class="footer-columns">
       <div class="footer-col">
