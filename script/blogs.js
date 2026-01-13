@@ -2,7 +2,7 @@ const blogEntries = [
   {
     title: "Začiatok",
     tag: "Informácie",
-    date: "Január 1, 2025",
+    date: "Január 1, 2026",
     description: "Základné potrebné info.",
     image: "assets/images/PreminentThumbnail.png",
     link: "blogs.html?post=20250101"
