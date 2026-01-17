@@ -40,8 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <h4>Kontakt</h4>
         <div class="contact-links">
           <a aria-label="Discord" href="${discordLink}"><i class="fa-brands fa-discord"></i></a>
-          <a aria-label="Instagram" href="https://www.instagram.com/preminentnet"><i class="fa-brands fa-instagram"></i></a>
-          <a aria-label="Email" href="mailto:contact@preminent.net"><i class="fa-solid fa-envelope"></i></a>
+          <a aria-label="Email" href="mailto:contact@wejkey.org"><i class="fa-solid fa-envelope"></i></a>
         </div>
       </div>
     </div>
