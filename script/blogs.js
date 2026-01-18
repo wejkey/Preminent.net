@@ -1,5 +1,13 @@
 const blogEntries = [
   {
+    title: "Zmena plánu",
+    tag: "Informácie",
+    date: "Január 18, 2026",
+    description: "Zverejnenie BETA verzie",
+    image: "assets/images/PreminentThumbnail.png",
+    link: "blogs.html?post=20250118"
+  },
+  {
     title: "Začiatok",
     tag: "Informácie",
     date: "Január 1, 2026",

@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <a href="${discordLink}">Discord</a>
     </nav>
     <div class="top-actions">
-      <button class="cta" type="button">Spustenie: Február 27, 2026</button>
+      <button class="cta" type="button">Aktualizácia: Január 23, 2026</button>
     </div>
   `;
 
