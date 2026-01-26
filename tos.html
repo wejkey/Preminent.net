@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preminent Network - Podmienky používania</title>
+
+  <meta name="author" content="Preminent Network Team">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Podmienky používania"> <!-- SEO Description-->
+
+  <link rel="canonical" href="https://wejkey.org">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="assets/images/Preminent.png" type="image/png">
+
+  <!-- Open Graph (Social apps) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Preminent Network - Podmienky používania">
+  <meta property="og:description" content="Podmienky používania">
+  <meta property="og:url" content="https://preminent.net">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Preminent Network Team">
+  <meta name="twitter:description" content="Podmienky používania">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/png" href="assets/images/Preminent.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body class="page">
+  <header class="topbar" data-navbar></header>
+
+  <main class="section legal">
+    <div class="section-header">
+      <p class="eyebrow">Updated: January 25, 2026</p>
+      <h2>Terms of Service</h2>
+    </div>
+    <div id="tos-content" class="legal-copy"></div>
+  </main>
+
+  <footer class="footer" data-footer></footer>
+
+  <script src="script/navbar.js"></script>
+  <script src="script/footer.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    function _loadScript(src){
+      return new Promise((resolve,reject)=>{
+        if(document.querySelector('script[src="'+src+'"]')) return resolve();
+        const s=document.createElement('script'); s.src=src; s.onload=resolve; s.onerror=reject; document.head.appendChild(s);
+      });
+    }
+
+    async function renderMarkdown(url, containerId) {
+      const container = document.getElementById(containerId);
+      if (!container) return;
+
+      if (!window.marked) {
+        try {
+          await _loadScript('https://cdn.jsdelivr.net/npm/marked/marked.min.js');
+        } catch (e) {
+          console.error('Failed to load marked:', e);
+        }
+      }
+
+      const basePath = location.pathname.replace(/\/[^\/]*$/, '/');
+      const candidates = [
+        url,
+        './' + url,
+        basePath + url,
+        url.replace(/^\//, '')
+      ];
+
+      const tried = [];
+      for (const candidate of candidates) {
+        tried.push(candidate);
+        try {
+          const res = await fetch(candidate);
+          if (!res) continue;
+          if (!res.ok) continue;
+          const md = await res.text();
+          container.innerHTML = (window.marked && typeof marked.parse === 'function') ? marked.parse(md) : md;
+          return;
+        } catch (e) {
+          // continue trying other candidates
+        }
+      }
+
+      container.innerHTML = '<p class="error">Unable to load content. Check the console for details.</p>';
+      console.error('renderMarkdown: failed to load', { url, tried });
+    }
+
+    renderMarkdown('licenses/tos.md', 'tos-content');
+  </script>
+</body>
+</html>
